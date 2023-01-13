@@ -2,13 +2,13 @@ import React from 'react'
 import { BrowserRouter } from 'react-router-dom'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './App/App'
+import App from './Components/App/App'
 
 const rootElement = document.getElementById('root')
 const root = createRoot(rootElement)
 
 root.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
+	<BrowserRouter>
+		<App />
+	</BrowserRouter>
 )
