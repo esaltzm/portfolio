@@ -1,8 +1,9 @@
 import React from 'react'
+import './Home.css'
 
 export default function Home() {
     return (
-        <div>
+        <div className='home'>
             <div style={{ width: 300 }} className="window">
                 <div className="title-bar">
                     <div className="title-bar-text">Eli Saltzman</div>
