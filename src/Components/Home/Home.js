@@ -1,23 +1,29 @@
 import React from 'react'
+import About from '../HomeElements/About'
+import Experiences from '../HomeElements/Experiences'
+import Skills from '../HomeElements/Skills'
+import Projects from '../HomeElements/Projects'
 import './Home.css'
 
 export default function Home() {
     return (
         <div className='home'>
-            <div style={{ width: 300 }} className="window">
+            <div className="window">
                 <div className="title-bar">
-                    <div className="title-bar-text">Eli Saltzman</div>
+                    <div className="title-bar-text">Eli Saltzman - Developer Portfolio</div>
                     <div className="title-bar-controls">
-                        <button aria-label="Minimize" />
-                        <button aria-label="Maximize" />
-                        <button aria-label="Close" />
+                        <button className='title-button' aria-label="Minimize" />
+                        <button className='title-button' aria-label="Maximize" />
+                        <button className='title-button' aria-label="Close" />
                     </div>
                 </div>
-                <div className="window-body">
-                    <p style={{ textAlign: "center" }}>Welcome to my page!</p>
-                    <div className="window" style={{ textAlign: "center", fontWeight: "bold" }}>
-                        About me:
-                    </div>
+                <p className='heading'>Full-Stack Software Engineer  |  Thru-Hiker  |  LGBTQ+ Advocate</p>
+                <div className='under-line'><hr /></div>
+                <div className='sections'>
+                    <About />
+                    <Experiences />
+                    <Skills />
+                    <Projects />
                 </div>
             </div>
         </div>

@@ -2,4 +2,121 @@
     position: absolute;
     top: 0px;
     left: 300px;
+    width: 1000px;
+    height: 95%;
+}
+
+.window {
+    width: 80%;
+    display: block;
+}
+
+.heading {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.under-line {
+    margin: 10px;
+    margin-bottom: 14px;
+}
+
+hr {
+    border: none;
+    width: 400px;
+    height: 2px;
+    opacity: 0.5;
+    background: linear-gradient(to right, red 20%, yellow 20%, yellow 36%, green 36%, green 60%, blue 60%, blue 100%);
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sub-heading {
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.sub-window {
+    width: 120%;
+    margin-left: 40px;
+}
+
+.sub-title {
+    font-size: 15px !important;
+}
+
+.content {
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.title-bar-text {
+    font-size: 25px;
+}
+
+.img-wrap {
+    float: right;
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin: 10px;
+    padding: 0;
+    height: 100%;
+}
+
+.img-container {
+    border-left: 1px solid #dfdfdf;
+    border-top: 1px solid #dfdfdf;
+    border-right: 1px solid #7f7f7f;
+    border-bottom: 1px solid #7f7f7f;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+    display: inline-block;
+}
+
+.box-group {
+    display: flex;
+    width: 100%;
+}
+
+.box {
+    float: none;
+    padding-right: 20px;
+    flex: 1;
+    height: 300px;
+}
+
+.experience-logo {
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.project-photos-container {
+    width: 90%;
+    display: flex;
+    gap: 10px;
+    margin: 30px;
+    overflow-x: auto;
+    border-left: 1px solid #dfdfdf;
+    border-top: 1px solid #dfdfdf;
+    border-right: 1px solid #7f7f7f;
+    border-bottom: 1px solid #7f7f7f;
+    padding: 10px;
+    height: 100%;
+}
+
+.project-photo {
+    height: 300px;
 }

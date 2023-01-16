@@ -8,6 +8,15 @@ export default function Nav() {
                 <ul className='tree-view navbar'>
                     <li>About</li>
                     <li>
+                        Experiences
+                        <ul>
+                            <li>General Assembly</li>
+                            <li>Colorado Trail</li>
+                            <li>Carnegie Institute</li>
+                        </ul>
+                    </li>
+                    <li>Skills</li>
+                    <li>
                         Projects
                         <ul>
                             <li>SkyScan</li>

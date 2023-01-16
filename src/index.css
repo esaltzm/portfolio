@@ -3,4 +3,9 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  letter-spacing: 1px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
