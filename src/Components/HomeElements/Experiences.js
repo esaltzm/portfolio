@@ -22,7 +22,7 @@ export default function Experiences() {
                         <br />
                         <li>Developed intuitive graphical user interface using TKinter module</li>
                         <br />
-                        <li>Worked taking issues from lab management and making new features from them</li>
+                        <li>Took issues from lab management and implemented them as new features</li>
                     </ul>
                 </div>
                 <div className='img-wrap box'>
@@ -49,7 +49,7 @@ export default function Experiences() {
                         <br />
                         <li>Utilized frontend and backend technologies to create vibrant full-stack applications</li>
                         <br />
-                        <li>Gained experience working independently and finding solutions on my own</li>
+                        <li>Gained experience working independently and finding the resources to implement solutions efficiently</li>
                     </ul>
                 </div>
             </div>

@@ -5,7 +5,7 @@ export default function Projects() {
         {
             name: 'SkyScan',
             subtitle: 'Weather Data Visualization',
-            description: 'SkyScan was based off of the DarkSky weather visualization web app, which was taken offline at the beginning of 2023 after its purchase by Apple. My version visualizes parameters including temperature, precipitation, wind speed, snow depth, and lightning on a zoomable and draggable map, allowing selection of data in 3 hour increments going back one year from 12/30/22.',
+            description: 'SkyScan is based on the DarkSky weather visualization web app, which was taken offline at the beginning of 2023 after its purchase by Apple. My version visualizes parameters including temperature, precipitation, wind speed, snow depth, and lightning on a zoomable and draggable map, allowing selection of data in 3 hour increments going back one year from 12/30/22.',
             links: [
                 {
                     name: 'Deployed Project',
@@ -39,7 +39,7 @@ export default function Projects() {
         {
             name: 'Photocast',
             subtitle: 'Image EXIF Parsing, Mapping, and Weather Analysis',
-            description: 'Photocast is an app allowing users to upload a series of photos, see their photos on a map, and then sort them by different parameters including weather and altitude at the place and time the photo was taken. I created this project for personal reasons, namely that I took so many photos during my 2022 Colorado Trail hike and did not keep a journal of the experience. This app allows users to relive the moments behind their photos by extracting specific information from the EXIF data behind them.',
+            description: 'Photocast is an app allowing users to upload a series of photos, see their photos on a map, and then sort them by different parameters including weather and altitude at the place and time the photo was taken. I created this project because I took so many photos during my 2022 Colorado Trail hike and did not keep a journal of the experience. This app allows users to relive the moments behind their photos by extracting specific information from the EXIF data behind them.',
             images: ['photocast1.png', 'photocast1.gif', 'photocast3.png', 'photocast5.png',],
             links: [
                 {
@@ -55,7 +55,7 @@ export default function Projects() {
         {
             name: 'Fire Tracker',
             subtitle: 'Customized SMS Wildfire Alerts for Thru-Hikers',
-            description: 'Inspired by my close call with a wildfire on the PCT in 2021, this app allows hikers to text the alert hotline (via cellular or satellite network) and recieve an SMS response customized to the trail they are on, listing all current fires within 50 miles of the trail and their closest mile markers, allowing users to make informed decisions about their travel. The app currently supports the Colorado Trail, with the addition of other National Scenic Trails forthcoming.',
+            description: 'Inspired by my close call with a wildfire on the PCT in 2021, this app allows hikers to text the alert hotline (via cellular or satellite network) and recieve an SMS response customized to the trail they are on, listing all current fires within 50 miles of the trail and their closest mile markers, allowing users to make informed decisions about their travel. The app currently supports the Colorado Trail, with the addition of other National Scenic Trails to come.',
             images: ['firetracker3.png', 'firetracker1.jpg', 'firetracker2.jpg'],
             links: [
                 {
