@@ -14,10 +14,10 @@ export default function Experiences() {
             <div className='box-group'>
                 <div className='img-wrap box'>
                     <p className='content' style={{ fontSize: '15px' }}>
-                        Carnegie Institute for Science
+                        Carnegie Institute
                         <img className='experience-logo' src='carnegie.png' alt='carnegie institute logo' />
                     </p>
-                    <ul style={{ fontSize: '15px' }}>
+                    <ul style={{ fontFamily: 'sans-serif', fontSize: '14px', fontWeight: 'bold' }}>
                         <li>Created user-friendly Python-based genomic data analysis pipeline to examine relationships between SNPs (single nucleotide polymorphisms) and plant root phenotypes</li>
                         <br />
                         <li>Developed intuitive graphical user interface using TKinter module</li>
@@ -31,7 +31,7 @@ export default function Experiences() {
                         <img className='experience-logo' src='ct.png' alt='colorado trail blaze' />
 
                     </p>
-                    <ul style={{ fontSize: '15px' }}>
+                    <ul style={{ fontFamily: 'sans-serif', fontSize: '14px', fontWeight: 'bold' }}>
                         <li>Hiked 486 miles from Denver to Durango</li>
                         <br />
                         <li>Used my own Fire Tracker application to receive early warning of any wildfires impacting the trail</li>
@@ -44,7 +44,7 @@ export default function Experiences() {
                         General Assembly
                         <img className='experience-logo' src='ga.png' alt='general assembly logo' />
                     </p>
-                    <ul style={{ fontSize: '15px' }}>
+                    <ul style={{ fontFamily: 'sans-serif', fontSize: '14px', fontWeight: 'bold' }}>
                         <li>Collaborated with other engineers using Git version control best practices (feature branches, issue tickets, pull requests)</li>
                         <br />
                         <li>Utilized frontend and backend technologies to create vibrant full-stack applications</li>

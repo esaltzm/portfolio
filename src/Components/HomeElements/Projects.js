@@ -101,12 +101,14 @@ export default function Projects() {
                                     {' — ' + project.subtitle}
                                 </em>
                             </p>
-                            <p className='content'>
+                            <p className='content' style={{ fontFamily: 'sans-serif', fontSize: '13px', fontWeight: 'bold' }}>
                                 {project.description}
                                 <br /> <br />
                                 {project.links.map(link => {
                                     return (
-                                        <a style={{ textDecoration: 'underline', color: 'blue', marginLeft: '20px' }} target='_blank' href={link.href}>{link.name}</a>
+                                        <a style={{ textDecoration: 'underline', color: 'blue', marginLeft: '20px' }}
+                                            target='_blank' href={link.href}>{link.name}
+                                        </a>
                                     )
                                 })}
                             </p>

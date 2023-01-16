@@ -16,7 +16,7 @@ export default function Skills() {
                     <p className='content' style={{ fontSize: '15px' }}>
                         Frontend
                     </p>
-                    <ul style={{ fontSize: '15px' }}>
+                    <ul style={{ fontFamily: 'sans-serif', fontSize: '14px', fontWeight: 'bold' }}>
                         <li>HTML + CSS</li>
                         <br />
                         <li>JavaScript</li>
@@ -32,7 +32,7 @@ export default function Skills() {
                     <p className='content' style={{ fontSize: '15px' }}>
                         Backend
                     </p>
-                    <ul style={{ fontSize: '15px' }}>
+                    <ul style={{ fontFamily: 'sans-serif', fontSize: '14px', fontWeight: 'bold' }}>
                         <li>Node.js</li>
                         <br />
                         <li>Express</li>
@@ -50,7 +50,7 @@ export default function Skills() {
                     <p className='content' style={{ fontSize: '15px' }}>
                         Database
                     </p>
-                    <ul style={{ fontSize: '15px' }}>
+                    <ul style={{ fontFamily: 'sans-serif', fontSize: '14px', fontWeight: 'bold' }}>
                         <li>MongoDB</li>
                         <br />
                         <li>Relational Databases (Postgres, MySQL, MariaDB)</li>
