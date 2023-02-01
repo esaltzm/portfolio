@@ -21,9 +21,9 @@ export default function Home() {
                 <div className='under-line'><hr /></div>
                 <div className='sections'>
                     <About />
-                    <Experiences />
                     <Skills />
                     <Projects />
+                    <Experiences />
                 </div>
             </div>
         </div>
