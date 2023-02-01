@@ -17,7 +17,7 @@ export default function Projects() {
                 }
             ],
             images: [
-                'skyscan1.png', 'skyscan2.png', 'skyscan3.png', 'skyscan4.png'
+                'https://i.imgur.com/c9Jn8Nl.png', 'https://i.imgur.com/pnykW3I.png', 'https://i.imgur.com/Q3lgpS0.png', 'skyscan3.png',
             ]
         },
         {
