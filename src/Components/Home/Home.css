@@ -120,3 +120,16 @@ hr {
 .project-photo {
     height: 300px;
 }
+
+.about-block {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    align-items: center;
+}
+
+.about-block-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
